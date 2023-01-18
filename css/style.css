@@ -17,7 +17,6 @@ body {
 /* Page Header CSS ------ Both Pages*/
 #header {
     width: 100%;
-    height: auto;
     background-color: #eb9f26;
     margin-bottom: .25%;
 }
@@ -28,22 +27,25 @@ body {
     justify-content: space-between;
 }
 .logo {
-    display: inline-block;
-    padding-left: 3%;
     padding-top: .5%;
+    width: 20%;
+}
+.logoBox {
+    height: 90%;
+    width: 90%;
 }
 .nav {
    display: inline-block;
    width: auto;
 }
 .navBox {
-    padding: 9.75% 0 9.5% 0;
+    padding: 8% 0 8% 0;
 }
 .navBox a {
     color: black;
     text-decoration: none;
     padding-right: 25px;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 100;
 }
 
@@ -54,7 +56,6 @@ body {
 }
 .mainPictureHome {
     width: 100%;
-    height: 515px;
     background-color: lightgray;
     background-image: url(images-CSS/hero-image.jpg);
     background-size: cover;
@@ -62,189 +63,268 @@ body {
 .mainPictureHomeText{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 28%;
+    padding-bottom: 6%;
 }
 .mainPictureHomeText h1 {
-    position: absolute;
-    top: 495px;
     background-color: white;
+    font-size: 3.5vw;
     padding: 10px;
-    border: 1px solid lightgray;
+    border: 1px solid #dadfea;
     border-radius: 10px;
 }
 
 /* Every Categorie */
 #everyCate {
     width: 100%;
-    height: 630px;
     background-color: white;
 }
 .everyCateBox{
     width: 80%;
-    height: 575px;
     margin: 0 10% 0 10%;
 }
 .everyCateText h2 {
-    font-size: 44px;
-    padding-top: 55px;
-}.everyCateText p {
-    font-size: 28px;
-    padding-top: 35px;
+    font-size: 3.5vw;
+    padding-top: 4%;
+}
+.everyCateText p {
+    font-size: 2vw;
+    padding-top: 3%;
     font-weight: 100;
 }
 .everyCatePictures {
+    padding-top: 3%;
+    padding-bottom: 5%;
     display: flex;
-    padding-top: 35px;
     justify-content: space-between;
 }
 .breakfastMeal {
     display: inline-block;
+    padding-right: 1%;
+}
+.breakfastMeal img {
+    height: 89%;
+    width: 100%;
 }
 .breakfastMeal h3{
     display: flex;
     justify-content: center;
+    font-weight: 100;
+    font-size: 1.35vw;
 }
 .veganIdeas {
     display: inline-block;
 }
+.veganIdeas img {
+    height: 89%;
+    width: 100%;
+}
 .veganIdeas h3{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    font-weight: 100;
+    font-size: 1.35vw;
 }
 .coldWeather {
     display: inline-block;
+    padding-left: 1%;
+}
+.coldWeather img {
+    height: 89%;
+    width: 100%;
 }
 .coldWeather h3 {
     display: flex;
     justify-content: center;
+    font-weight: 100;
+    font-size: 1.35vw;
 }
 
 /* Healthy Recipies Section */
 #healthyRecipes {
     width: 100%;
-    height: 555px;
     background-color: #dadfea;
 }
 .healthyRecipesBox {
     width: 80%;
-    height: 410px;
     margin: 0 10% 0 10%;
 
 }
 .healthyRecipesText h2 {
-    font-size: 44px;
-    padding-top: 55px;
+    font-size: 3.5vw;
+    padding-top: 4%;
 }
 .healthyRecipesText p {
-    font-size: 28px;
-    padding-top: 35px;
+    font-size: 2vw;
+    padding-top: 3%;
     font-weight: 100;
 }
 
 .healthRecipesPictures {
     display: flex;
-    padding-top: 25px;
     justify-content: space-between;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 .stuffedPeppers {
     display: inline-block;
     background-color: white;
 }
+.stuffedPeppersBox {
+    padding: 0 .5% 0 .5%;
+
+}
+.stuffedPeppers img {
+    height: 78.5%;
+    width: 100%;
+}
 .stuffedPeppers h3 {
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
-    
+    padding: 2% 0 4% 0;
+    font-weight: 100;
+    font-size: 1.35vw;
 }
 .breakfastMuffins {
     display: inline-block;
     background-color: white;
-
+}
+.breakfastMuffinsBox {
+    padding: 0 .5% 0 .5%;
+}
+.breakfastMuffins img {
+    height: 78.5%;
+    width: 100%;
+    
 }
 .breakfastMuffins h3 {
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
-
+    padding: 2% 0 4% 0;
+    font-weight: 100;
+    font-size: 1.35vw;
 }
 .eggParm {
     display: inline-block;
     background-color: white;
 
 }
+.eggParmBox {
+    padding: 0 .5% 0 .5%;
+}
+.eggParm img {
+    height: 78.5%;
+    width: 100%;
+
+}
 .eggParm h3 {
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
+    padding: 2% 0 4% 0;
+    font-weight: 100;
+    font-size: 1.35vw;
 
 }
 .chickenThighs {
     display: inline-block;
     background-color: white;
+}
+.chickenThighsBox {
+    padding: 0 .5% 0 .5%;
 
+}
+.chickenThighs img {
+    height: 78.5%;
+    width: 100%;
 }
 .chickenThighs h3 {
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
+    padding: 2% 0 4% 0;
+    font-weight: 100;
+    font-size: 1.35vw;
 
 }
 
 /* Where to Eat Section */
 #whereEat {
     width: 100%;
-    height: 855px;
     background-color: white;
 }
 .whereEatBox {
     width: 80%;
-    height: 767px;
     margin: 0 10% 0 10%;
 }
 .whereEatText h2 {
-    font-size: 48px;
-    padding-top: 55px;
+    font-size: 3.5vw;
+    padding-top: 4%;
 }
 .whereEatText p {
-    font-size: 28px;
-    padding-top: 35px;
+    font-size: 2vw;
+    padding-top: 3%;
     font-weight: 100;
 }
 
 .whereEatPictures {
     display: flex;
     justify-content: space-between;
-    padding-top: 37px;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 .bestSandwich {
     display: inline-block;
 }
+.bestSandwichBox {
+    padding-right: 1%;
+}
 .bestSandwich img {
-    border: 5px solid #dadfea;
+    height: 85%;
+    width: 100%;
+    border: .35vw solid #dadfea;
 }
 .bestSandwich h3  {
     display: flex;
     justify-content: center;
     padding-top: 5px;
+    font-weight: 100;
+    font-size: 1.35vw;
+
 }
 .fiftyStatePizza {
     display: inline-block;
 }
+.fiftyStatePizzaBox {
+    padding: 0 2% 0 2%;
+}
 .fiftyStatePizza img {
-    border: 5px solid #dadfea;
+    height: 85%;
+    width: 100%;
+    border: .35vw solid #dadfea;
 }
 .fiftyStatePizza h3 {
     display: flex;
     justify-content: center;
+    font-weight: 100;
+    font-size: 1.35vw;
+
 }
 .cityGuides {
     display: inline-block;
 }
+.cityGuidesBox {
+    padding-left: 1%;
+}
 .cityGuides img {
-    border: 5px solid #dadfea;
+    height: 85%;
+    width: 100%;
+    border: .35vw solid #dadfea;
 }
 .cityGuides h3 {
     display: flex;
     justify-content: center;
+    font-weight: 100;
+    font-size: 1.35vw;
+
 }
 
 /* ----------------------Recipe Page---------------------------------------------------------------- */
@@ -255,7 +335,6 @@ body {
 }
 .mainPictureRecipes {
     width: 100%;
-    height: 515px;
     background-color: lightgray;
     background-image: url(images-CSS/bengal-burger.jpg);
     background-size: cover;
@@ -263,12 +342,13 @@ body {
 .mainPictureRecipesText {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 28%;
+    padding-bottom: 6%;
 
 }
 .mainPictureRecipesText h1 {
-    position: absolute;
-    top: 495px;
     background-color: white;
+    font-size: 3.5vw;
     padding: 10px;
     border: 1px solid lightgray;
     border-radius: 10px;
@@ -278,21 +358,27 @@ body {
 /* Recipes Summary */
 #summary {
     width: 100%;
-    height: 175px;
     background-color: #dadfea;
 }
 .summaryBox {
     width: 80%;
     margin: 0 10% 0 10%;
+    padding-bottom: 2%;
 }
-.summaryBox h1 {
+.summaryBox h2 {
     padding-top: 1%;
+    font-size: 2.25vw;
+}
+.summaryColumns {
+    width: 50%;
+    column-count: 3;
 }
 .summaryType {
     font-weight: bold;
 }
 .summaryBox p {
     display: inline-block;
+    font-size: 1.25vw;
     padding-top: 1.5%;
     padding-right: 10%;
 }
@@ -313,7 +399,7 @@ body {
     padding-top: 3%;
 }
 .directionsHeader h1 {
-    font-size: 48px;
+    font-size: 3.5vw;
     display: block;
 }
 .starRating {
@@ -325,6 +411,7 @@ body {
 .directionsHeader p {
     display: flex;
     justify-content: center;
+    font-size: 1.25vw;
 }
 .recipeButtons {
     display: flex;
@@ -334,17 +421,17 @@ body {
 #saveButton {
     background-color: #a13a15;
     color: white;
-    font-size: 12px;
+    font-size: 1vw;
     border-radius: 15px;
-    padding: 7px 15px 7px 15px;
+    padding: 1.25% 2.25% 1.25% 2.25%;
     border-style: none;
     margin-right: 2%;
 }
 #printButton {
     background-image: url(images-CSS/printer-icon-vector-25322906.jpg);
-    background-size: 30px 30px;
+    background-size: 100% 115%;
     background-color: white;
-    width: 30px;
+    width: 10%;
     border-radius: 25px;
     border-style: none;
     border: 1px solid #dadfea;
@@ -365,7 +452,7 @@ body {
     margin: 0 10% 0 10%;
     padding-top: 4%;
     padding-bottom: 4%;
-    font-size: x-large;
+    font-size: 1.5vw;
     text-align: center;
     color: #575656;
 }
@@ -387,13 +474,16 @@ body {
           page-break-inside: avoid;
                break-inside: avoid;
 }
+.ingrdients h2 {
+    font-size: 1.65vw;
+}
 .ingrdients li {
     padding-bottom: 1%;
-    font-size: large;
+    font-size: 1vw;
     font-weight: 100;
 }
 .ingrdients h4 {
-    font-size: large;
+    font-size: 1.2vw;
 }
 .directionSteps {
     -webkit-column-break-inside: avoid;
@@ -401,13 +491,16 @@ body {
                break-inside: avoid;
     padding-bottom: 20%;
 }
+.directionSteps h2 {
+    font-size: 1.65vw;
+}
 .directionSteps li {
-    padding-bottom: 5%;
-    font-size: large;
+    padding-bottom: 4.5%;
+    font-size: 1vw;
     font-weight: 100;
 }
 .directionSteps h4 {
-    font-size: large;
+    font-size: 1.2vw;
 }
 
 
@@ -420,8 +513,8 @@ body {
     
 }
 .footerBox {
-    width: 80%;
-    margin: 0 10% 0 10%;
+    width: 90%;
+    margin: 0 5% 0 5%;
     padding-top: 2%;
     padding-bottom: 2%;
     display: flex;
@@ -433,6 +526,8 @@ body {
 }
 .copyRight h3 {
     font-weight: 100;
+    font-size: 1.5vw;
+
 }
 .info {
     display: inline-block;
@@ -442,6 +537,6 @@ body {
     color: black;
     text-decoration: none;
     padding-right: 25px;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 100;
 }
